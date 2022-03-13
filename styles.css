@@ -1,0 +1,359 @@
+/*body{
+    background-color: black;
+}
+
+p{
+    font-size: 20px;
+}
+/* primer parrafo */
+  /*.p-green {
+      color: greenyellow;
+  }
+
+  #main-section {
+      background-color: skyblue;
+  } */
+
+  /*
+   Soy un comentario
+  */
+
+  /* Book page*/
+
+ /* * {
+  margin: 0;
+} */
+
+  body {
+      margin: 0;
+  }
+
+  .navbar {
+      background-color: black;
+      height: 48px;
+      width: 100%;
+  }
+
+  .navbar a {
+      float: left;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  .navbar a:hover{
+      background-color: #fcf6f6;
+      color: #b4a57b;
+  }
+
+  .hero-image {
+    background-image: url("assets/images/4750754_2153_lineup.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #ffffff;
+  }
+  
+  .articles {
+    text-align: center;
+  }
+  
+  .article {
+    border: 4px solid #000000;
+    margin: 50px 20px;
+    display: inline-block;
+  }
+
+  .article-header__img {
+    width: 85%;
+    max-height: 350px;
+  }
+
+  @media (max-width: 767px) { 
+    body {
+      background-color: #b4a57b;
+    }
+
+    .article {
+      border: 3px solid rgb(0, 0, 0);
+      width: 50%;
+      margin: 50px auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+  img, svg {
+    vertical-align: middle;
+    display: block;
+    padding-top: 133.333%;
+    width: 100% ;
+   }
+  }
+
+  .mOudq {
+    --type-token: discovery.subhed-section-primary;
+    text-transform: uppercase;
+    font-family: VogueAvantGarde, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    letter-spacing: 0.0818182em;
+    line-break: auto;
+    line-height: 1.09091em;
+    font-weight: 400;
+    overflow-wrap: normal;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+    /* animaciones y transiciones*/
+
+    .article {
+      background-color: floralwhite;
+      transition: background-color 0.5s linear;
+    }
+
+    .article:hover {
+      background-color: #ffffff;
+    }
+
+   /* #article2 {
+      border-radius: 0px;
+      background-color: #00e6b2;
+      transition: 0.5 linear;
+    }
+
+    #article2:hover {
+      border-radius: 50px;
+    } */
+
+    .bdPVNg {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+  }
+
+  .glyYHe {
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: inline-flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 1;
+    border-radius: 0px;
+    padding: 1rem;
+    min-width: auto;
+    height: auto;
+    min-height: auto;
+    transition-property: color, background, border;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    --type-token: utility.button-core;
+    text-transform: uppercase;
+    font-family: VogueAvantGarde, helvetica, sans-serif;
+    font-feature-settings: normal;
+    font-style: normal;
+    letter-spacing: 0.0852071em;
+    line-break: auto;
+    line-height: 1.13615em;
+    font-size: 13px;
+    font-weight: 600;
+    overflow-wrap: normal;
+}
+
+    .hero-text {
+      transform: scaleX(1);
+      transition: transform 0.5s ease;
+    }
+    
+    .hero-text:hover {
+      transform: scaleX(2);
+    } 
+
+.navbar {
+    background-color: #000000;
+    height: 50px;
+    width: 100%;
+}
+
+.kKNFFq {
+  --grid-gap: 1rem;
+  --grid-margin: 1.5rem;
+  padding-right: calc(1 * var(--grid-margin));
+  padding-left: calc(1 * var(--grid-margin));
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1600px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+    margin-top: 0.5rem;
+}
+
+.hZsZyY {
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 0px;
+  padding: 0px 1rem;
+  min-width: 2.5rem;
+  height: 50px;
+  min-height: 0px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+  color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  --type-token: utility.button-utility;
+  text-transform: uppercase;
+  font-family: VogueAvantGarde, helvetica, sans-serif;
+  font-feature-settings: normal;
+  font-style: normal;
+  letter-spacing: 0.0852071em;
+  line-break: auto;
+  line-height: 1.13615em;
+  font-size: 13px;
+  font-weight: 600;
+  overflow-wrap: normal;
+}
+
+
+/* Footer */
+#footer {
+	background: black;
+	color: white;
+	padding: 80px 0;
+}
+
+#footer .footer-content {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+
+#footer .footer-content .footer-menu {
+	margin: 0 60px;
+	list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 25px 0;
+	transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #919496;
+	font-size: 0.8rem;
+}
+
+/* Footer Socials */
+.socials {
+	display: flex;
+}
+
+.socials i {
+	margin: 0 20px;
+	font-size: 1.7rem;
+	transition: all 300ms ease;
+  background-color: #ffffff;
+}
+
+.socials i:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+/* Footer Info */
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 60%;
+	margin: auto;
+	font-weight: bold;
+	color: #919496;
+	font-size: 0.75rem;
+	padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 10px;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.footer-info .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.footer-info .rights .country p {
+	transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.footer-info .rights .country .mexico-flag {
+	height: 20px;
+	width: auto;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+
+
+    
+
+
+
+
+
+
+
+    
